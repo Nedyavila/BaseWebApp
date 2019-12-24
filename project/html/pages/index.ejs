@@ -10,14 +10,23 @@
   	<% include ../helpers/navbar %>
 
   
-    <h1>Lend me a paw</h1>
+    <h1>Lend me a paw (API edition)</h1>
   </div>
 
-  <p>Click on the button for a surprise.</p>
+  <!-- <p>Click on the button for a surprise.</p>
 
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
+  <button onClick="showPicture()" class="btn btn-dark">Click me</button> -->
+
+  <input class="search" type="text" placeholder="Enter a city name">
+  <button type="button" onClick="searchWeather()">Search</button>
 
   <div id="image"></div>
+
+  <div class="city"></div>
+
+  <div class="temp"></div>
+
+  <div class="error-message"></div>
   
 </body>
 
